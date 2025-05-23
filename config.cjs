@@ -18,7 +18,7 @@ const config = {
   
   
   REJECT_CALL: process.env.REJECT_CALL !== undefined ? process.env.REJECT_CALL === 'true' : true, 
-  ANTI_TEXT: process.env.ANTI_TEXT !== undefined ? process.env.ANTI_TEXT === 'true' : true,
+  ANTI_TEXT: process.env.ANTI_TEXT !== undefined ? process.env.ANTI_TEXT === 'true' : false,
   ANTI_WORD: process.env.ANTI_WORD !== undefined ? process.env.ANTI_WORD === 'true' : true,
   MODE: process.env.MODE || "public",
   OWNER_NAME: process.env.OWNER_NAME || "Carl William",
